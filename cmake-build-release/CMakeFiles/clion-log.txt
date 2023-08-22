@@ -1,0 +1,20 @@
+/home/mithun/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" -S /home/mithun/apps/v4l2_driver -B /home/mithun/apps/v4l2_driver/cmake-build-release
+CMake Error at CMakeLists.txt:8 (find_package):
+  By not providing "Findglog.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "glog", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "glog" with any of
+  the following names:
+
+    glogConfig.cmake
+    glog-config.cmake
+
+  Add the installation prefix of "glog" to CMAKE_PREFIX_PATH or set
+  "glog_DIR" to a directory containing one of the above files.  If "glog"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/mithun/apps/v4l2_driver/cmake-build-release/CMakeFiles/CMakeOutput.log".
